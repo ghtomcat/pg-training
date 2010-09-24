@@ -28,7 +28,7 @@ var run = function(application) {
         if (callback)
             callback.call(this);
 		return false;
-    });
+    };
 }
 
 // gets the value of the setting from the ui
